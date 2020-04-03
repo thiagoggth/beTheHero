@@ -4,7 +4,7 @@ const routes = require('./routes');
 
 const app = express();
 
-app.use(cors());
+app.use(cors('https://lucid-darwin-e1a6a2.netlify.com/'));
 app.use(express.json());
 app.use(routes);
 
