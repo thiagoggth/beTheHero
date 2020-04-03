@@ -1,11 +1,11 @@
 const express = require('express');
-const cors = require('cors');
 const routes = require('./routes');
+
+const port = process.env.PORT || 8080;
 
 const app = express();
 
-app.use(cors('https://lucid-darwin-e1a6a2.netlify.com/'));
 app.use(express.json());
 app.use(routes);
 
-app.listen(3333);
+app.listen(port);
