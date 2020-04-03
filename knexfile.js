@@ -36,7 +36,7 @@ module.exports = {
       user: 'fmcasggpbstpyr',
       password: '0fcbc63f4fb9e40c83408d7cd91a62c7445600db2fd1bc72f413c2ada7dca827'
     },
-    migritions: {
+    migrations: {
       directory: __dirname + '/src/database/migrations/',
     }
   }
